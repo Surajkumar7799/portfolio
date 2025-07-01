@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: rgb(222, 177, 177)#b46868;
+  color: #333;
+}
+
+header {
+  background:  #70aeed;
+  color:rgb(240, 241, 236);
+  text-align: center;
+  padding: 50px 20px;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about, .projects, .contact {
+  background: rgb(237, 216, 178);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.projects .project {
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.projects .project:first-child {
+  border-top: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background: #72a8cb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #96c369;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #70aeed;
+  color: white;
+}
